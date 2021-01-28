@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "txQcSIu615SOJlXo6LNGMyz4cRRXBKSQVg1dp6a5FWd9dM5Ilm/MTEBEJ0CvpTvdkBCeJNKsA7zWrJE4g1zOsg==",
+  "dgSpecHash": "YTtBX3Hundn4a5/Id/15xYRnsMzpKmJOzL339+dkpehJ64FPEAJNhONmDhzf+7okUtlq27ptU/w25z6sqekxIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ingen\\source\\repos\\ConsoleApp_IDP\\ConsoleApp_IDP\\ConsoleApp_IDP.csproj",
+  "projectFilePath": "C:\\Users\\ingen\\source\\repos\\InterfacesDesignPatterns\\ConsoleApp_IDP\\ConsoleApp_IDP.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

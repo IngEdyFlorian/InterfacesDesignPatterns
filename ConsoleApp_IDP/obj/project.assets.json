@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "IDP_Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/IDP_Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IDP_Lib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "IDP_Lib/1.0.0": {
+      "type": "project",
+      "path": "../IDP_Lib/IDP_Lib.csproj",
+      "msbuildProject": "../IDP_Lib/IDP_Lib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "IDP_Lib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ingen\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ingen\\source\\repos\\ConsoleApp_IDP\\ConsoleApp_IDP\\ConsoleApp_IDP.csproj",
+      "projectUniqueName": "C:\\Users\\ingen\\source\\repos\\InterfacesDesignPatterns\\ConsoleApp_IDP\\ConsoleApp_IDP.csproj",
       "projectName": "ConsoleApp_IDP",
-      "projectPath": "C:\\Users\\ingen\\source\\repos\\ConsoleApp_IDP\\ConsoleApp_IDP\\ConsoleApp_IDP.csproj",
+      "projectPath": "C:\\Users\\ingen\\source\\repos\\InterfacesDesignPatterns\\ConsoleApp_IDP\\ConsoleApp_IDP.csproj",
       "packagesPath": "C:\\Users\\ingen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ingen\\source\\repos\\ConsoleApp_IDP\\ConsoleApp_IDP\\obj\\",
+      "outputPath": "C:\\Users\\ingen\\source\\repos\\InterfacesDesignPatterns\\ConsoleApp_IDP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -37,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ingen\\source\\repos\\InterfacesDesignPatterns\\IDP_Lib\\IDP_Lib.csproj": {
+              "projectPath": "C:\\Users\\ingen\\source\\repos\\InterfacesDesignPatterns\\IDP_Lib\\IDP_Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
